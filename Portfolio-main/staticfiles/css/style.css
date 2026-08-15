@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight:bold;
+    color:#d30d0d;
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar-dark{
+    background-color: rgb(10, 10, 10);
+}
+
+.circular-image-container{
+    width:200px;
+    height:200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+width:120%;
+height: auto;
+display: block;
+}
+
+.name{
+    color: #c20a0a;
+}
+
+.title{
+    color: #cd1414;
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.jumbtron{
+    background-color: #000000;
+    padding:20px;
+    border-radius:10px;
+}
+
+
+.display4 {
+color: #e80909;
+font-size: 24px;
+}
+
+.lead{
+    font-size: 18px;
+    color:#cc0b0b;
+}
+
+.form-container{
+    border: 2px solid rgb(235, 8, 8);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0e0d0d;
+}
